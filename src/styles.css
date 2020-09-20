@@ -1,5 +1,7 @@
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+
+
 }
 
 .logo{
@@ -14,14 +16,30 @@ body{
     height: 20px;
 }
 
+/* div that wraps both buttons */
+.feedback-wrapper{
+    background-color: cadetblue;
+}
+
 .google{
     margin-top: 2%;
     text-align: center;
+    width: 100%;
 }
 
 .fb{
     margin-top: 10px;
     text-align: center;
+}
+
+.btn-g{
+    background-color: #F2B605;
+    text-align: center;
+    align-content: center;
+}
+
+.btn-f{
+    background-color: #4064AC;
 }
 
 .site-footer{
